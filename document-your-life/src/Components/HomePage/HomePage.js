@@ -33,17 +33,14 @@ const HomePage = () => {
     return (
         <>
             <div className='homepage'>
-
                 <h2 className='homepage-title'> Document Your Life </h2>
                 <div className='homepage-container'>
-                <div className='homepage-video-container'>
-                    <YoutubeEmbed src={video} />
-            <div className='homepage-btn'>
-                <Button btnName="Let's Go!" path='/signup' />
-            </div>
-                </div>
-
-
+                    <div className='homepage-video-container'>
+                        <YoutubeEmbed src={video} />
+                        <div className='homepage-btn'>
+                            <Button btnName="Let's Go!" path='/signup' />
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className='homeModal'>
@@ -61,10 +58,7 @@ const HomePage = () => {
                             <li className='modalHover-container-step'>1. Inscrivez-vous et connectez-vous </li>
                             <li className='modalHover-container-step'>2. Accédez à votre dashboard </li>
                             <li className='modalHover-container-step'>3. Créez une nouvelle carte afin d'illustrer votre journée </li>
-
                             <li className='modalHover-container-text'>Pour plus de précision vous pouvez lire la vidéo de présentation de DYL.</li>
-
-                            {/* <li className='modalHover-container-text'>Bloaz pal. Abardaez burzhud. C’har asied. Merc’her arrebeuri. Pegañ skouarn. Hor kleñved. Bobl sioul. Tregastell broust. Gouere unan. Sellout askorn.</li> */}
                         </ul>
                         <button className='modalHover-button'>
                             <Link className='modalHover-button-label' to='/login'>Connexion</Link>

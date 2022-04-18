@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import React from 'react';
 import './page404.scss';
 import { Link } from 'react-router-dom';

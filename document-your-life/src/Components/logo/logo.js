@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 // Import context
 import React, { memo } from 'react';
 import './logo.scss';
